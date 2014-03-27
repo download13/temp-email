@@ -1,0 +1,26 @@
+{
+  "name": "temp-guard",
+  "version": "0.0.0",
+  "description": "A list of temporary email domains",
+  "main": "guard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/download13/temp-guard"
+  },
+  "keywords": [
+    "mail",
+    "email",
+    "temp",
+    "temporary",
+    "spam"
+  ],
+  "author": "Erin Dachtler <download333@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/download13/temp-guard/issues"
+  },
+  "homepage": "https://github.com/download13/temp-guard"
+}
