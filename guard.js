@@ -1,7 +1,10 @@
 var fs = require('fs');
+var path = require('path');
+
+var DOMAINS_FILE = path.join(__dirname, 'domains.txt');
 
 var table = {};
-var domains = fs.readFileSync('domains.txt', {encoding: 'utf8'});
+var domains = fs.readFileSync(DOMAINS_FILE, {encoding: 'utf8'});
 domains.split('\n').map(function(domain) {
 	return domain.toLowerCase().trim();
 }).forEach(function(domain) {
